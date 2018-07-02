@@ -10,7 +10,7 @@ import com.helpdesk.api.entity.ChangeStatus;
 import com.helpdesk.api.entity.Ticket;
 import com.helpdesk.api.repository.ChangeStatusRepository;
 import com.helpdesk.api.repository.TicketRepository;
-import com.helpdesk.api.security.service.TicketService;
+import com.helpdesk.api.service.TicketService;
 
 @Service
 public class TicketServiceImpl implements TicketService {
